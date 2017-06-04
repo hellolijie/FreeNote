@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_bg_music"
+        android:orderInCategory="100"
+        android:title="背景音乐"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_data_statistics"
+        android:orderInCategory="100"
+        android:title="数据统计"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_data_clear_up"
+        android:orderInCategory="100"
+        android:title="数据整理"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="退出"
+        app:showAsAction="always" />
+</menu>

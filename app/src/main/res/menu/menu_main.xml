@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cn.mune.jerry.freenote.activity.MainActivity">
+    <item
+        android:id="@+id/action_category"
+        android:title="@string/menu_category"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="@string/menu_search"
+        app:showAsAction="ifRoom" />
+
+</menu>
